@@ -1,5 +1,8 @@
 lockfileVersion: 5.4
 
+overrides:
+  gsap: npm:@gsap/business@^3.11.4
+
 specifiers:
   '@changesets/changelog-git': ^0.1.14
   '@changesets/cli': ^2.26.0
