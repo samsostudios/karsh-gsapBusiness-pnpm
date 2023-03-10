@@ -18,5 +18,6 @@ window.Webflow.push(() => {
   const tl2 = gsap.timeline();
   const tl3 = gsap.timeline();
   const tl4 = gsap.timeline();
+  const tl5 = gsap.timeline();
   console.log('SPLIT', splitMenu);
 });
