@@ -13,6 +13,6 @@ window.Webflow.push(() => {
 
   const tl = gsap.timeline();
   tl.to(splitMenu.chars, { y: '1rem', stagger: { each: 0.2 } });
-  tl.to(body, { backgroundColor: 'yellow' }, '<');
+  tl.to(body, { backgroundColor: 'green' }, '<');
   console.log('SPLIT', splitMenu);
 });
