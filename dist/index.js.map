@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../bin/live-reload.js", "../src/index.ts"],
+  "sourcesContent": ["new EventSource(`http://localhost:${SERVE_PORT}/esbuild`).addEventListener(\n  \"change\",\n  () => location.reload()\n);", "window.Webflow ||= [];\nwindow.Webflow.push(() => {\n  console.log('pnpm gsap business');\n});\n"],
+  "mappings": ";;;AAAA,MAAI,YAAY,oBAAoB,aAAoB,EAAE;AAAA,IACxD;AAAA,IACA,MAAM,SAAS,OAAO;AAAA,EACxB;;;ACHA,SAAO,YAAY,CAAC;AACpB,SAAO,QAAQ,KAAK,MAAM;AACxB,YAAQ,IAAI,oBAAoB;AAAA,EAClC,CAAC;",
+  "names": []
+}

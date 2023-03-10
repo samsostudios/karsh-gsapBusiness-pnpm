@@ -43,7 +43,7 @@
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
     "cross-env": "^7.0.3",
-    "esbuild": "^0.15.1",
+    "esbuild": "^0.17.11",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -52,7 +52,6 @@
   },
   "dependencies": {
     "@finsweet/ts-utils": "^0.33.1",
-    "barba.js": "^1.0.0",
-    "gsap": "^3.11.3"
+    "barba.js": "^1.0.0"
   }
 }
