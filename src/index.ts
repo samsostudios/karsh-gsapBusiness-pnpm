@@ -16,5 +16,6 @@ window.Webflow.push(() => {
   tl.to(body, { backgroundColor: 'pink' }, '<');
 
   const tl2 = gsap.timeline();
+  const tl3 = gsap.timeline();
   console.log('SPLIT', splitMenu);
 });
